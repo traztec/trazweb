@@ -1,0 +1,73 @@
+/***** SMARTPHONES *****/
+
+@media all and (max-width: 767px){
+
+	#navigation{ background-color: #222; padding-top: 25px; }
+	#mobile-toggle{ display: block; }
+	#menu{ float: left; padding-top: 21px; margin-bottom: 22px; }
+	#menu li{ float: none; }
+	#menu li i{ display: none; }
+	/*.logo{ display: none; }*/
+	
+	.nav-logo{ margin-top: -3px; }
+	
+	p.lead{ font-size: 16px; }
+	
+	#home-slider .slides li h1{ font-size: 3rem; }
+	
+	.flex-control-nav{ display: none !important; }
+
+	#about-detail{ display: none; }
+
+	#services-bg{ display: none; }
+	#blog-bg{ display: none; }
+	
+	.filters li{ margin-bottom: 22px; float: none; margin-left: 0px; margin-right: 0px; }
+	.service{ width: 100%; padding-right: 0px; }
+	/*.project{ width: 100%; }*/
+	.project-slider{ margin-bottom: 22px; }
+	
+	.blog-icon{ width: 15%; }
+	.blog-title{ width: 85%; }
+	
+	.social-link{ width: 100% !important; }
+
+	.hero-screens{ display: none; }
+	
+	#clients{ padding-bottom: 55px; }
+
+	#form-name{ width: 100%; }
+	#form-email{ width: 100%; }
+}
+
+
+/***** TABLETS PORTRAIT & LANDSCAPE *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+	.project{ width: 50%; }
+
+
+}
+
+
+/***** PORTRAIT TABLETS *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	#menu li i{ display: none; }
+
+	.service{ min-width: 100%; max-width: 100%; }
+	
+	.form-upper{ width: 100%; }
+	.form-upper h5{ border-right: none; }
+	.form-lower{ width: 100%; margin-bottom: 22px; }
+	.form-lower h5{ border: none; }
+	#form-button{ width: 100%; }
+
+}
